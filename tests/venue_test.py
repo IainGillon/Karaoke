@@ -17,3 +17,4 @@ class TestVenue(unittest.TestCase):
 
     def venue_has_till(self):
         self.assertEqual(1000, self.venue.till)
+    

@@ -5,10 +5,13 @@ class Room:
         self.songs = songs
         self.capacity = capacity
         
-    # def room_guests(self, room):
-    #     room_guest = []
-    #     for guest in room.guests:
-    #         if rooms["Number"] == number:
-    #             room_guest.append(guest)
-    #             return room_guest
+    def add_song_to_room(self, song):
+        self.songs.append(song)
+
+    def check_in_guest(self, guest):
+        self.guests.append(guest)
+
+    def check_out_guest(self, guest):
+        self.guests.remove(guest)
+
 

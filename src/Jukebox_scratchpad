@@ -1,0 +1,26 @@
+//Set up song/venue variables
+
+ def setUp(self):
+        self.song1 = Song("X Goin Give It To Ya", "DMX", 3.36)
+        self.song2 = Song("Candle In The Wind", "Elton John", 3.50)
+
+//define rooms
+   self.room1 = Room(1, "Bubba Ray Dudley", "X Goin Give It To Ya", 4)
+       self.room2 = Room(2, "D-Von Dudley", "Candle In The Wind", 4)
+
+//define venue
+    def setUp(self):
+        self.venue = Venue("Moe's Tavern", [1, 2], 1000)
+
+
+//add guest to room
+
+//write function to create new guest and add to Room
+//funtion will need name/song number/room number
+//call room function and add guest/song to room 
+
+
+
+//final output
+//print venue name
+//print rooms and guests/song_test
